@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     font-family: "Noto Sans JP", sans-serif;
 	line-height: 1;
+	background-color: #ECECEC;
 }
 ol, ul {
 	list-style: none;
