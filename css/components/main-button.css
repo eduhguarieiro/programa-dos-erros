@@ -8,8 +8,10 @@
     box-shadow: 3px 3px 0 #000;
     margin-right: 10px;
     cursor: pointer;
+    transition: 400ms ease-in-out;
 }
 
 .main-button:hover{
     background-color: #fc9090;
+    transform: scale(1.05);
 }
