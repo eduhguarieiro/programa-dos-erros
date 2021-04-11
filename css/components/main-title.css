@@ -1,5 +1,7 @@
 .main-title{
+    display: inline-block;
     font-weight: 700;
     font-size: 40px;
-    color: #1E162F;
+    color: #FB6868;
+    text-shadow: 3px 3px 0 #000;
 }
