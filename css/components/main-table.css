@@ -1,0 +1,25 @@
+.main-table {
+    display: table  ;
+    border: 2px solid #080808;
+    border-collapse: collapse;
+}
+
+.main-table th{
+    border: solid 1px #080808;
+    color: #FB6868;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-collapse: inherit;
+}
+
+.main-table tr,.main-table td {
+    border: solid 1px #080808;
+    color: #2A2A2A;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-collapse: inherit;
+}
+
+.main-table input{
+    width: 58px;
+}
