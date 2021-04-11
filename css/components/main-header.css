@@ -1,0 +1,14 @@
+.main-header{
+    display: flex;
+    background-color: #3A4042;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-bottom: 5px solid #000;
+}
+
+.main-header .container{
+    margin-top: 10px;
+}
