@@ -9,6 +9,7 @@
     margin-right: 10px;
     cursor: pointer;
     transition: 400ms ease-in-out;
+    outline: none;
 }
 
 .main-button:hover{
