@@ -1,0 +1,15 @@
+.main-button{
+    background-color: #FB6868;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 23px;
+    box-shadow: 3px 3px 0 #000;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main-button:hover{
+    background-color: #fc9090;
+}
