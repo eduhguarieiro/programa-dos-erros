@@ -13,16 +13,22 @@
     <link rel="stylesheet" href="css/components/main-header.css">
     <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/main-section.css">
+    <link rel="stylesheet" href="css/components/main-table.css">
 </head>
 <body>
     <header class="main-header">
         <h1 class="main-title">Programa dos Erros</h1>
         <div class="container">
-            <button class="main-button">Teoria dos Erros</button>
+            <button onclick="teoryClick()" class="main-button">Teoria dos Erros</button>
             <button class="main-button">Propagação dos Erros</button>
         </div>
     </header>
 
-    <section class="main-section"></section>
+    <section id="section" class="main-section"></section>
+
+    <script src="js/components/teoryClick.js"></script>
+    <script src="js/components/showTheoryOnScreen.js"></script>
+    <script src="js/components/addMeasure.js"></script>
 </body>
 </html>
