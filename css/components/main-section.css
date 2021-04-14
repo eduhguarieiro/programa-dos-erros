@@ -1,10 +1,13 @@
 .main-section{
-    margin-top: 20px;   
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    margin-top: 20px;
 }
 
 .main-section .main-button{
     margin-left: 20px;
+}
+
+.main-section .container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
