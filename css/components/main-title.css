@@ -5,3 +5,11 @@
     color: #FB6868;
     text-shadow: 3px 3px 0 #000;
 }
+
+.main-title.-block{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2.5px 2.5px 1px #000;
+}
