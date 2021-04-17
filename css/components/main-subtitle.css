@@ -1,0 +1,9 @@
+.main-subtitle{
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FB6868;
+    margin-top: 25px;
+    text-shadow: 2px 2px 0 #000;
+    justify-content: center;
+}
