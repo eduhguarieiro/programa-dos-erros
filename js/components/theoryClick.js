@@ -7,7 +7,7 @@ function theoryClick(){
     html += '<table id="table" class="main-table"><thead><tr><th>N</th>'
     html += '<th>Medida</th>'
     html += '<tbody id="body"></tbody></table>'
-    html += '<button onClick="addMeasure('+ k +')" class="main-button">Adicionar medida</button>'
+    html += '<button id="addMeasure" type="button" onClick="addMeasure('+ k +')" class="main-button">Adicionar medida</button>'
     html += '<button id="execute" onClick="executeProgram()" class="main-button" disabled>Executar programa</button></div>'
     section.innerHTML = html
     html = ""
