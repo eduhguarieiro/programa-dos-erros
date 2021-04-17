@@ -5,7 +5,5 @@ function calculatePattern(desvAb2){
     }
     let pattern = Math.sqrt(soma/(pressed - 1))
     let aPattern = parseFloat((pattern/Math.sqrt(pressed)).toPrecision(1))
-    console.log(pattern)
-    console.log(aPattern)
     return aPattern
 }
