@@ -13,4 +13,5 @@ function showTheoryOnScreen(medida, measure){
         input.innerHTML = measure[t]
         }
     }
+    document.getElementById('input['+ k +']').focus()
 }
