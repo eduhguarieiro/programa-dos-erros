@@ -1,4 +1,4 @@
-function calculateAverage(){
+function calculateAverage(algSig){
     let input = document.getElementById('input['+ k +']')
     if(input.value != ""){
         measure[i] = input.value
@@ -6,8 +6,9 @@ function calculateAverage(){
     }
     let soma = 0
     for(let a = 0; a < measure.length; a++){
-        soma += parseInt(measure[a])
+        soma += parseFloat(measure[a])
     }
     let average = soma/pressed
+    average = parseFloat(average.toPrecision(algSig))
     return average
 }
