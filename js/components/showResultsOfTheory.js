@@ -3,7 +3,7 @@ function showResultsOfTheory(medidas, media, desvPad){
     let section = document.getElementById('section')
     section.innerHTML = html
     html += '<div class="container">'
-    html += '<table id="table" class="main-table"><thead><tr><th>N</th>'
+    html += '<table id="table" class="main-table -result"><thead><tr><th>N</th>'
     html += '<th>Medida</th>'
     html += '<th>Desvio Absoluto</th>'
     html += '<th>Desvio Absoluto²</th>'

@@ -2,7 +2,7 @@ function theoryClick(){
     var section = document.getElementById('section')
     var html = ""
     section.innerHTML = html
-    html += '<h1 class="main-title -block">Insira as medidas a serem computadas</h1>'
+    html += '<h1 class="main-title -block">Insira as medidas a serem computadas:</h1>'
     html += '<div class="container">'
     html += '<table id="table" class="main-table"><thead><tr><th>N</th>'
     html += '<th>Medida</th>'
