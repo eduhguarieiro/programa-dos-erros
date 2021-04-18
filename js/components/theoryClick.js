@@ -1,6 +1,6 @@
 function theoryClick(){
     var section = document.getElementById('section')
-    var html = ""
+    let html = ""
     section.innerHTML = html
     html += '<h1 class="main-title -block">Insira as medidas a serem computadas:</h1>'
     html += '<div class="container">'
@@ -13,4 +13,5 @@ function theoryClick(){
     html = ""
     showTheoryOnScreen(k)
     document.getElementById('theory').disabled = true
+    document.getElementById('propagation').disabled = false
 } 
