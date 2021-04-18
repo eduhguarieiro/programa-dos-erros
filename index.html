@@ -16,19 +16,21 @@
     <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/main-table.css">
     <link rel="stylesheet" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" href="css/components/main-calculator.css">
 </head>
 <body>
     <header class="main-header">
         <h1 class="main-title">Programa dos Erros</h1>
         <div class="container">
             <button id="theory" onclick="theoryClick()" class="main-button">Teoria dos Erros</button>
-            <button class="main-button">Propagação dos Erros</button>
+            <button id="propagation" onclick="propagationClick()" class="main-button">Propagação dos Erros</button>
         </div>
     </header>
 
     <section id="section" class="main-section"></section>
 
     <script src="js/components/theoryClick.js"></script>
+    <script src="js/components/propagationClick.js"></script>
     <script src="js/components/showTheoryOnScreen.js"></script>
     <script src="js/components/addMeasure.js"></script>
     <script src="js/components/executeProgram.js"></script>
