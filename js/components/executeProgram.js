@@ -6,7 +6,9 @@ function executeProgram(){
     let absolutes = calculateAbsolute(measure, media, algSig)
     let desvAb = absolutes[0]
     let desvAb2 = absolutes[1]
-    let desvPad = calculatePattern(desvAb2)
+    let ret = calculatePattern(desvAb2)
+    let desvPad = ret[0]
+    let decPlaces = ret[1]
     let medidas = createObject(measure, desvAb, desvAb2)
-    showResultsOfTheory(medidas, media, desvPad)
+    showResultsOfTheory(medidas, media, desvPad, decPlaces)
 }

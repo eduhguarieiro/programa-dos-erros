@@ -1,4 +1,4 @@
-function showResultsOfTheory(medidas, media, desvPad){
+function showResultsOfTheory(medidas, media, desvPad, decPlaces){
     let html = ""
     let section = document.getElementById('section')
     section.innerHTML = html
@@ -15,7 +15,7 @@ function showResultsOfTheory(medidas, media, desvPad){
         html += '<td>' + medidas[h].desvAb2 + '</td></tr>'
     }
     html += '</tbody></table></div>'
-    html += '<h2 class="main-subtitle">A medida é (' + media + '±' + desvPad + ')unidades<h2>'
+    html += '<h2 class="main-subtitle">A medida é (' + media.toPrecision(decPlaces) + '±' + desvPad + ')unidades<h2>'
     section.innerHTML = html
     document.getElementById('theory').disabled = false
 }
