@@ -17,7 +17,7 @@ function propagationClick(){
     html += '<button class="button -bdl" onClick="pressKey(0)">0</button>'
     html += '<button class="button" onClick="pressKey(`.`)">.</button>'
     html += '<button class="button">=</button></div>'
-    html += '<div class="operations"><button class="button -minor" onClick="pressKey(⌫)">⌫</button>'
+    html += '<div class="operations"><button class="button -minor">⌫</button>'
     html += '<button class="button -minor" onClick="pressKey(`±`)">±</button>'
     html += '<button class="button -minor" onClick="pressKey(`÷`)">÷</button>'
     html += '<button class="button -minor" onClick="pressKey(`×`)">×</button>'

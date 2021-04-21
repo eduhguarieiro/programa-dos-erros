@@ -14,13 +14,42 @@
 }
 
 .wrapper .display{
+    display: block;
+    box-sizing: border-box;
     width: 100%;
-    height: 80px;
+    min-height: 80px;
+    max-height: 80px;
     padding: 0;
     border: 0;
     background: #495052;
     border-radius: 10px 10px 0 0;
     outline: none;
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    text-align: right;
+    direction: ltr;
+}
+
+.wrapper .display::-webkit-scrollbar{
+    height: 5px;
+    background-color: #495052;
+    margin-bottom: 1px;
+}
+
+.wrapper .display::-webkit-scrollbar-thumb{
+    height: 2px;
+    background-color: #FB6868;
+    border-radius: 10px;
+}
+
+.wrapper .text{
+    display: inline-block;
+    vertical-align: sub;
+    padding: 20px 0;
 }
 
 .main-calculator .keyboard{
